@@ -2,6 +2,5 @@ pandas
 geopandas 
 matplotlib
 numpy
-time
 seaborn
 requests

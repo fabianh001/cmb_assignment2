@@ -1,3 +1,7 @@
+# lab
+jupyterlab==v3.2.2
+jupyterlab-link-share
+# libraries
 pandas
 geopandas 
 matplotlib

@@ -1,6 +1,8 @@
 # lab
-jupyterlab==v3.2.2
+ipykernel>=6
+jupyterlab==3.2.7
 jupyterlab-link-share
+xeus-python
 # libraries
 pandas
 geopandas 

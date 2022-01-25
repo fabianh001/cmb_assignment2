@@ -7,4 +7,12 @@ $ nbdime config-git --enable --global
 $ git mergetool --tool=nbdime
 ```
 
-
+Installation Notes: 
+```
+conda config --append channels conda-forge
+conda install pipwin
+conda install gdal
+conda install fiona
+conda install geopandas
+conda install -r requirements.txt
+```

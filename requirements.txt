@@ -1,8 +1,8 @@
-# lab
-ipykernel>=6
-jupyterlab==3.2.7
-jupyterlab-link-share
-xeus-python
+# dependencies for geopandas
+gdal
+fiona
+# jupyter
+jupyter
 # libraries
 pandas
 geopandas 

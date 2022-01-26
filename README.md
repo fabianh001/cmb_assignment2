@@ -1,4 +1,4 @@
-# cmb_assignment2 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fabianh001/cmb_assignment2.git/HEAD)
+# cmb_assignment2_group_1
 
 ## Installation Notes: 
 
@@ -10,15 +10,30 @@ The following python libraries need to be installed before running the jupyter n
 - seaborn
 - requests
 
+### Instructions
 ```
-conda config --append channels conda-forge
-conda install pipwin
-conda install gdal
-conda install fiona
-conda install geopandas
-conda install -r requirements.txt
+conda create --name cmb-assignment2-group1 python=3.9
+conda activate cmb-assignment2-group1
+conda install --file requirements.txt
 ```
 
 ## Run the Jupyter Notebook
 
-You need to have jupyter installed. Then open the `cmb2.ipynb` notebook and run it.
+You need to have jupyter installed.
+In order to run the notebook analysis, only the notebook `cmb2.ipynb` and the cache file `df.csv` are required. Please place the files in the following file structure:
+
+```
+Root Folder
+├── dumps                   # Contains csv files from team members
+├──────  advanced-dumps-sven.csv
+├──────  allPorts_fabian.csv
+├──────  allPorts_maxi_v3.csv
+└── README.md
+└── df.csv
+```
+
+
+
+There is the variable `new_read` in the first code cell, which is set to `False` by default and uses the cache file in order to immediately start the analysis. 
+
+In order to create the cache file from the member's csv files (placed in the dumps folder), the variable can be set to `True` and then it runs through all steps of the notebook (including filtering local traffic and creating new columns for analysis purposes). These additional steps might run for approximately 30 minutes.

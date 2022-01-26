@@ -3,7 +3,7 @@
 This repository is a walk-trough over a home network analysis, that was performed in the beginning of 2022 by [geitner-max](https://github.com/geitner-max), [sven0311](https://github.com/sven0311) and [fabianh001](https://github.com/fabianh001).
 We first wanted to understand general information about our networks, namely the used protocols, DNS servers, encryption distribution and ethertypes. Further, the sources and destinations of our requests were analysed and which devices sent the most data. Lastly, a closer look was taken onto suspicious network traffic.
 
-## Installation Notes: 
+## Installation Notes 
 
 The following python libraries need to be installed before running the jupyter notebook:
 - pandas

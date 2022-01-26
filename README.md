@@ -30,10 +30,10 @@ In order to run the notebook analysis, only the notebook `cmb2.ipynb` and the ca
 ```
 Root Folder
 ├── dumps                   # Contains csv files from team members
-├──────  advanced-dumps-sven.csv
-├──────  allPorts_fabian.csv
-├──────  allPorts_maxi_v3.csv
-└── README.md
+|   ├── advanced-dumps-sven.csv
+|   ├── allPorts_fabian.csv
+|   └── allPorts_maxi_v3.csv
+├── README.md
 └── df.csv
 ```
 
